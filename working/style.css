@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(134,199,255);
+    font-family:'Courier New', Courier, monospace;
+}
+.wrapper{
+     margin-top:5%;
+}
+.heading{
+    text-align: center;
+}
+textarea{
+     width:80%;
+     height:40%;
+     margin:10%;
+     border-radius:12px;
+     margin-top:5%;
+}
+.container-second__daycard:hover{
+    background-color:aqua;
+    font-size:larger;
+}
+.container-second__daycard{
+    width:80%;
+    height:5%;
+    margin:10%;
+    padding:2%;
+    text-align:center;
+    font-weight:bold;
+    border-radius:12px;
+    border:none;
+    margin-top:5%;
+    margin-bottom:0px;
+}
+.container-first__buttons{
+    display:flex;
+    justify-content: center;
+}
+.displayCounter{
+     font-size:3rem;
+}
+.container-second__text{
+    width:80%;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.container-first__buttons__card{
+    margin:2%;
+    border-radius:12px;
+    font-weight: bold;
+    border:none;
+}
+.save:hover{
+    background-color:aqua;
+    font-size:larger;
+}
+.save{
+ width:30%;
+}
+@media(max-width:420px){
+   body{
+       background-color: rgb(134,199,255);
+       font-family:'Courier New', Courier, monospace;
+   }
+   .wrapper{
+        margin-top:5%;
+   }
+   .heading{
+       margin:0 auto;
+       margin:10%;
+   }
+   textarea{
+        width:80%;
+        height:40%;
+        margin:10%;
+        border-radius:12px;
+        margin-top:5%;
+   }
+   .container-second__daycard:hover{
+        background-color:aqua;
+        font-size:larger;
+    }
+   .container-second__daycard{
+       width:80%;
+       height:5%;
+       margin:10%;
+       padding:2%;
+       text-align:center;
+       font-weight:bold;
+       border-radius:12px;
+       border:none;
+       margin-top:5%;
+       margin-bottom:0px;
+   }
+   .container-first__buttons{
+       display:flex;
+       justify-content: center;
+   }
+   .displayCounter{
+        font-size:2rem;
+   }
+   .container-second__text{
+       width:80%;
+       text-align: justify;
+       font-weight: bold;
+       border-radius: 8px;
+       margin-left:10%;
+       margin-right:10%;
+       margin-top:2%;
+       margin-bottom:2%;
+   }
+   .container-first__buttons__card{
+       margin:2%;
+       border-radius:12px;
+       font-weight: bold;
+       border:none;
+   }
+   .save:hover{
+       background-color:aqua;
+       font-size:larger;
+   }
+   .save{
+       width:30%;
+   }
+
+}
